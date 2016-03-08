@@ -22,6 +22,8 @@
  *
  */
 
+#define __ADD_FTDI_A9A0__
+
 /* Commands */
 #define FTDI_SIO_RESET			0 /* Reset the port */
 #define FTDI_SIO_MODEM_CTRL		1 /* Set the modem control register */

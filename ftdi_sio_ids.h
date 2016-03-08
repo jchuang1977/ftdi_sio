@@ -53,7 +53,9 @@
 
 #define FTDI_BM_ATOM_NANO_PID	0xa559	/* Basic Micro ATOM Nano USB2Serial */
 
-#define FTDI_FT2322D_PID 0xA9A0	/* ADSTech IR Blaster USBX-707 */
+#ifdef __ADD_FTDI_A9A0__
+#define FTDI_FT2322D_PID 0xA9A0	/* For intel */
+#endif
 
 /*
  * Texas Instruments XDS100v2 JTAG / BeagleBone A3
